@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-# Helm version https://releases.hashicorp.com/packer/
+# https://releases.hashicorp.com/packer/
 
 ENV PACKER_VERSION=1.2.5
 ENV PACKER_SHA256SUM=bc58aa3f3db380b76776e35f69662b49f3cf15cf80420fc81a15ce971430824c
