@@ -1,7 +1,7 @@
 # packer-cli
 
 
-[packer Version](https://github.com/mudrii/packer-cli.git)
+[packer Version](https://releases.hashicorp.com/packer/)
 
 Alias
 
