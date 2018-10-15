@@ -17,7 +17,6 @@ RUN apk --no-cache update && \
     sha256sum -cs packer_${PACKER_VERSION}_SHA256SUMS && \
     unzip packer_${PACKER_VERSION}_linux_amd64.zip -d /bin && \
     rm -f packer_${PACKER_VERSION}_linux_amd64.zip && \
-    apk --purge del curl && \
-    rm /var/cache/apk/*
+    apk --purge del curl
 
 USER mudrii
