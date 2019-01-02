@@ -5,8 +5,8 @@ RUN addgroup -g 985 -S users
 RUN adduser -S -G users -u 1000 -s /bin/sh -h /home/mudrii mudrii
 
 # https://releases.hashicorp.com/packer/
-ENV PACKER_VERSION=1.3.2
-ENV PACKER_SHA256SUM=5e51808299135fee7a2e664b09f401b5712b5ef18bd4bad5bc50f4dcd8b149a1
+ENV PACKER_VERSION=1.3.3
+ENV PACKER_SHA256SUM=2e3ea8f366d676d6572ead7e0c773158dfea0aed9c6a740c669d447bcb48d65f
 
 RUN apk --no-cache update && \
     apk --no-cache add \
